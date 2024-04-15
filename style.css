@@ -1,0 +1,495 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+
+     
+}
+
+
+.header {
+display: flex;
+padding: 10px 0px;
+align-items: center;
+}
+.logo {
+width: 30%;
+}
+.menu {
+width: 70%;
+}
+
+.menu ul{
+list-style: none;
+}
+.menu ul li{
+display: inline-block;
+padding: 0px 25px;
+position: relative;
+
+}
+.menu ul li .btn1{
+}
+.droupdwon-menu {
+display: none;
+position: absolute;
+left: 0;
+padding: 0;
+}
+.menu ul li:hover .droupdwon-menu{
+display: block;
+}
+.btn1 {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 5px #bca5d2;
+    border: none;
+    line-height: 36px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* // first page */
+
+
+
+.homeslider{
+    background: url(../images/home-slider1.jpg);
+    padding:0px,0px, 30px;
+    height: 400px;
+  
+}
+
+
+.image-text{
+    text-align: center; 
+    background-color: black; 
+    opacity: 0.28;
+
+ 
+     
+}
+
+.image-text h1{
+    color: white;
+    padding: 20px;
+
+}
+.image-text p{
+    color: white;
+   
+   
+}
+.image-btn{
+  padding: 20px;
+  width: 150px;
+  border: none;
+
+}
+
+
+
+
+
+
+
+/* //second page  */
+.bizhubcoworking{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+
+
+.learnmore{
+   text-align: center;
+   padding: 30px;
+}
+.learnbtn{
+padding: 20px;
+}
+
+
+/* //third div */ 
+
+.city_banner{
+    background: url(../images/home4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.maroonedah{
+    display: flex;
+  
+  
+}
+.text-block h1{
+    color: white;
+    padding: 10px;
+   
+}
+.text-block p{
+    color: white;
+
+}
+.text-block,.signup{
+    text-align: center;
+  margin: 20px;
+  width: 600px;
+  text-align: center;
+}
+.signbtn{
+    padding: 10px;
+    width: 150px;
+    margin-top: 30px;
+  
+   
+}
+
+
+
+
+
+
+/* \\fourth div start */
+.aboutbizhub{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+
+.threediv{
+display: flex;
+
+}
+.i1,.i2,.i3{
+width: 350px;
+margin: 10px;
+
+}
+.threedivs{
+display: flex;
+
+}
+
+.i4,.i5,.i6{
+width: 350px;
+margin: 20px;
+
+}
+
+.Facilitiesbtn{
+padding: 30px;
+}
+.Facilities{
+padding: 20px;
+font-size: 16px;
+margin-left: 40%;
+
+
+}
+
+/* //fifth div start */
+
+.twodiv{
+display: flex;
+margin-top: 20px;
+
+}
+.image,.nov{
+width: 500px;
+margin-left: 30px;
+margin: 40px;
+
+
+
+}
+
+
+
+
+
+.novyear{
+display: flex;
+}
+.novtext{
+    width: 300px;
+    margin-left: 20px;
+}
+.novtext{
+   margin-top: 20px,0px,0px,0px;
+    text-align: center;
+}
+.n1{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 150px;
+}
+.n1,h1,h2{
+    text-align: center;
+    
+   
+  
+}
+
+.allevents{
+text-align: center;
+padding: 30px;
+}
+
+.alleventsbtn{
+    padding: 20px;
+    background-color: white;
+  
+}
+
+
+
+
+/* //six div start */
+
+.membership{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+h1{
+    font-weight: 5px;
+}
+.cmp{
+display: flex;
+}
+.casual{
+width: 350px;
+border: 2px solid lightblue;
+margin: 20px;
+text-align: center;
+
+}
+.casual:hover{
+    border: 2px solid black;
+}
+
+
+
+.crostext{
+display: flex;
+}
+
+.enquire{
+background-color: lightgray;
+text-align: center;
+
+}
+
+.enqurebtn{
+text-align: center;
+margin: 20px;
+}
+
+
+.now{
+padding: 20px;
+border: 2px solid black;
+background-color: white;
+}
+
+
+.icon{
+margin: 10px;
+
+}
+
+
+.informationbtn1 { 
+    background-color: black;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .casual:hover .informationbtn1  {
+    background-color: black;
+    color: white;
+    margin: 0px;
+
+  }
+
+
+
+
+/* //7th page start */
+.test{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+
+.test2{
+padding: 20px;
+width: 600px;
+margin-left: 30px;
+text-align: center;
+margin: auto;
+
+}
+
+
+
+
+
+/* //seventh div start */
+.members{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.member1:hover{
+    box-shadow:0px 0px 3px 3px #9898af;
+    
+}
+
+.fourdiv{
+    display: flex;
+    padding: 20px;
+}
+.member1{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.threeicons{
+margin-left: 30px;
+}
+
+/* //eight div start */
+.latestartical{
+    background: url(../images/h2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+}
+
+.articals{
+    display: flex;
+    padding: 20px;
+
+}
+.artical1,.artical2,.artical3{
+    background-color: rgb(233, 243, 252);
+    padding: 30px;
+   text-align: center;
+}
+
+.artical1,.artical2,.artical3 p{
+  font-weight: 300;
+}
+
+.artical1,.artical2,.artical3 span{
+    font-weight: 200;
+}
+
+
+
+/* //nineth div start */
+
+.home10{
+    background: url(../images/home10.jpg);
+    padding: 20px;
+}
+
+.clock{
+    text-align: center;
+    width: 800px;
+    margin-left: 30px;
+  
+}
+.clock span{
+    font-weight: 200;
+}
+.follow{
+    padding: 15px;
+}
+.followbtn{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.clock h2{
+    padding: 10px;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+.clock span{
+    color: white;
+}
+
+
+
+
+
+
+
+/* //tenth div start */
+.fouricons{
+    display: flex;
+    padding: 30px;
+    
+}
+ .icon4{
+width: 25%;
+margin-left: 30px;
+}
+
+/* //elaventh div start */
+.fivedives{
+    display: flex;
+}
+.d1{
+    margin: 20px;
+    color: white;
+    padding: 20px;
+}
+.d1 h1{
+   color: white;
+   font-weight: 350;
+}
+.d1 input{
+    padding: 15px;
+    border: none;
+
+}
+.d1 h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.twitter{
+    margin: 25px;
+
+}
+
+
+
